@@ -1,0 +1,61 @@
+.contact-page{
+ width: 80vw;
+ display: flex;
+ gap: 20px;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 30px auto 170px auto;
+}
+
+.Contact_Contents{
+    display: flex;
+}
+
+.contact-page h1{
+font-family: "outfit";
+font-weight: 200;
+margin: 0;
+padding: 0;
+font-size: 25px;
+}
+.contact-page span{
+    font-weight: 500;
+}
+.Contact_Contents img{
+  height: clamp(250px, 40vw, 345px);
+}
+
+.Contact_content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    gap:20px;
+}
+.Contact_content h2{
+font-family: "outfit";
+font-weight: 500;
+margin: 0;
+padding: 0;
+font-size: 15px;
+}
+.Contact_content p{
+    padding: 0;
+}
+.Contact_content .contact-address{
+    padding: 0;
+    margin: 0;
+}
+.Contact_content button{
+    padding: 15px 16px ;
+    background: transparent;
+    border: 1px solid #1F2937;
+}
+
+@media (max-width:900px) {
+    .Contact_Contents{
+        flex-direction: column;
+    }
+}

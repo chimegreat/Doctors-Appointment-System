@@ -1,0 +1,79 @@
+.doc-body {
+  width: 90vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+}
+.doctor_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(clamp(180px, 20vw, 240px), 1fr));
+  width: 80vw;
+  gap: 20px; 
+}
+
+.doctor_list_item {
+  border-radius: 15px;
+  border: 1px solid #c9d8ff;
+  padding: 0;
+  /* gap: 10px ; */
+  padding-bottom: 15px;
+
+}
+.doctor_list img {
+  background-color: #c9d8ff;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+   aspect-ratio: 4 / 3;  /*keeps proportion */
+  object-fit: cover;    /* crops nicely */
+}
+
+.doc-contents h1{
+  color: #1F2937;
+  font-size: max(2vw, 20px);
+}
+.doc-contents {
+  text-align: center;
+  width: 90vw;
+    margin: 40px auto;
+
+}
+
+.doc-avail {
+  display: flex;
+  align-items: center;
+}
+.doc-avail p {
+  color: #0fbf00;
+  font-weight: 300;
+}
+.doc-avail li {
+  font-size: 30px;
+  color: #0fbf00;
+  margin: 0;
+  width: 5px;
+}
+
+.doctor_list .doctor_name {
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+
+.doc-body button {
+  margin: 10px;
+  align-self: center;
+  border-radius: 30px;
+  padding: 15px 45px;
+  border: none;
+  background-color: #eaefff;
+}
+
+
+@media (max-width:800px) {
+  .doctor_list{
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}

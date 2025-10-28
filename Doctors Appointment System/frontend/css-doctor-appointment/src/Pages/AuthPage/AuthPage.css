@@ -1,0 +1,55 @@
+.authPage {
+  /* width: 50vw;  */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  align-items: center;
+  align-self: center;
+  text-align: left;
+}
+.authPage h1, p{
+    font-family: "outfit";
+}
+
+.authPage form {
+  box-shadow: 1px 1px 10px #00000015;
+  padding: 20px;
+}
+.auth-title h1{
+    padding: 0;
+    margin-bottom:10px ;
+    font-weight: 400;
+}
+
+.authPage .auth-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+.authPage p {
+  padding: 0;
+}
+.authPage label {
+  padding: 0;
+}
+.auth-inputs input {
+  padding: 5px 30px;
+}
+.auth-inputs{
+      /* border: 1px solid red; */
+
+}
+.auth-inputs button {
+  width: 90%;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5f6fff;
+  color: #ffff;
+  margin: 20px 0;
+}
+.auth-inputs p {
+  padding: 0;
+}

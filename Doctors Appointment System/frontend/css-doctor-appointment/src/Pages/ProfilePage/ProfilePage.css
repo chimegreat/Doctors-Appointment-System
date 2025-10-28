@@ -1,0 +1,97 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pic {
+  display: flex;
+}
+.profile_img {
+  height: clamp(140px, 40vw, 150px);
+  width: clamp(140px, 40vw, 150px);
+  border-radius: 15px;
+}
+.profile {
+  background-color: #efebff;
+  height: clamp(140px, 40vw, 150px);
+  width: clamp(140px, 40vw, 150px);
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.user {
+  color: #d6daff;
+  width: 90%;
+  height: 90%;
+}
+.profilePage h1{
+  font-family: "outfit";
+  font-weight: 400;
+  color: black;
+}
+
+.profilePage h2{
+  font-family: "outfit";
+  font-weight: 200;
+  font-size: 15px;
+  padding: 0;
+}
+.name{
+  width: 60vw;
+  align-items: flex-end;
+  margin: 30px 0 15px 0;
+
+}
+.name h1{
+  padding: 0;
+}
+.name .hr{
+  width: 100%;
+  border-bottom: 1px solid #adadad;
+  margin-top: 10px;
+}
+.contact_info{
+  width: fit-content;
+  margin: 30px 0 2px 0;
+}
+.contact_info .hr{
+  width: 100%;
+  border-bottom: 1px solid #adadad;
+}
+
+.contact{
+  width: 30vw;
+  display: flex;
+  gap: 20px; 
+   padding: 2px 0; 
+   text-align: left; 
+   align-items: flex-start;
+
+}
+
+/* .contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+    width: 30vw;
+
+} */
+
+.contact p:first-child{
+  width: 120px;
+  font-weight: 500;
+}
+
+/* Buttons */
+.contact button {
+  padding: 15px 40px;
+  margin-right: 10px;
+  border: 1px solid #5F6FFF;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #eee;
+}

@@ -1,0 +1,31 @@
+.Doctor_Page {
+  display: flex;
+  margin-bottom: 40vh;
+  /* border: 1px solid red; */
+}
+.Doctor_Selection {
+  flex: 0 0 25%; /* sidebar takes 25% width */
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #4b5563;
+  padding: 10px;
+}
+
+.Doctor_Button {
+  border-radius: 9px;
+  border: 1px solid #b4b4b4;
+  padding: 15px 25px;
+  width: 250px;
+  text-align: left;
+  background: transparent;
+  /* font-weight: 600; */
+  color: #4b5563;
+
+  /* font-size: 22px; */
+}
+
+.doc-initials {
+  margin: 20px 0;
+}

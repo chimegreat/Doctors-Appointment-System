@@ -1,0 +1,61 @@
+.AppointmentSection {
+  display: flex;
+  margin: 50px 0 100px 0;
+  /* flex-direction: column; */
+}
+.AppointmentPage{
+    margin-bottom: 200px;
+}
+.doctor_image {
+  height: 25vw;
+  background-color: #5f6fff;
+  border-radius: 30px;
+}
+.doctor_Info {
+  height: 25vw;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.doctor_Info span {
+  border: 1px solid #4B5563;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+.BookingDays {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.days {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 80px;
+  height: inherit;
+  width: 10%;
+  align-items: center;
+  padding: 20px;
+}
+.BookingTime {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 80px;
+  height: inherit;
+  width: 10%;
+  align-items: center;
+  padding: 10px 20px;
+}

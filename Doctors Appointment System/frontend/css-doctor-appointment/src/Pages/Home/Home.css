@@ -1,0 +1,15 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: 50px 0;
+}
+.header-btn {
+  padding: min(1vw, 10px) 20px;
+  border-radius: 30px;
+  border: none;
+  color: #595959;
+  background-color: white;
+  width: fit-content;
+  font-size: max(1.5vw, 11px);
+}

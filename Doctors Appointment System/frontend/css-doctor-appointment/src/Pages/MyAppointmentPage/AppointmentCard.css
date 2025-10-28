@@ -1,0 +1,184 @@
+/* AppointmentCard.css */
+
+.appointment-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: box-shadow 0.2s ease;
+}
+
+.appointment-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.doctor-info-section {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  gap:30px;
+}
+
+.doctor-image-container {
+  flex-shrink: 0;
+}
+
+.doctor-image {
+  height:clamp(20vw, 100px, 20VW);
+  object-fit: cover;
+  border: 2px solid #f3f4f6;
+}
+
+.doctor-details {
+  flex: 1;
+  padding-top: 40px;
+}
+.doctor-details p, h3, div, span{
+  padding: 0;
+  /* padding-left: 10px; */
+}
+
+.doctor-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 8px 0;
+
+}
+
+.doctor-specialty {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 0 0 16px 0;
+}
+
+.address-section {
+  margin-bottom: 16px;
+}
+
+.address-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin: 0 0 4px 0;
+}
+
+.address-line {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.appointment-time {
+  margin-top: 8px;
+}
+
+.time-info {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.time-label {
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
+}
+
+.pay-now-btn,
+.paid-btn {
+  background-color: #5F6FFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  /* border-radius: 6px; */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 190px;
+  transition: background-color 0.2s ease;
+  /* min-width: 80px; */
+}
+
+.pay-now-btn:hover,
+.paid-btn:hover {
+  background-color: #2563eb;
+}
+
+.paid-btn {
+  background-color: #10b981;
+}
+
+.paid-btn:hover {
+  background-color: #059669;
+}
+
+.cancelled-status {
+  color: #6b7280;
+  font-size: 14px;
+  padding: 8px 16px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+}
+
+.cancel-btn {
+  /* background-color: ; */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  /* border-radius: 6px; */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+    width: 190px;
+  min-width: 80px;
+}
+
+.cancel-btn:hover {
+  color: #374151;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .appointment-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .action-buttons {
+    align-items: stretch;
+    margin-left: 0;
+  }
+  
+  .pay-now-btn,
+  .paid-btn,
+  .cancelled-status {
+    min-width: auto;
+    text-align: center;
+  }
+  
+  .doctor-info-section {
+    gap: 12px;
+  }
+
+}

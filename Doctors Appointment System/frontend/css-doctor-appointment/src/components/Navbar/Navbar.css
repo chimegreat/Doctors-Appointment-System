@@ -1,0 +1,48 @@
+/* Navbar Section */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  max-width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo{
+  /* width: ; */
+  height: 3.5vw;
+  /* border: 1px solid red; */
+}
+.nav-items {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+}
+.nav-items li{
+  font-size: 1vw;
+}
+.auth-btn {
+  padding: 1vw 1.5vw;
+  border-radius: 30px;
+  background-color: #5f6fff;
+  border: none;
+  color: white;
+  width: fit-content;
+  font-size: max(1.5vw, 11px);
+  font-family: "Outfit", sans-serif;
+}
+
+.line {
+  border-bottom: 1px solid #BDBDBD;
+  width: 90vw;
+  margin: 20px 0 50px 0;
+}
+
+@media (max-width : 500px) {
+  .nav-items{
+    display: none;
+  }
+  .auth-btn{
+    padding: 2vw;
+  }
+}

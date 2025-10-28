@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #4B5563;
+  /* height: 100vh; */
+}

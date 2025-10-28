@@ -1,0 +1,65 @@
+.about-page {
+  margin-bottom: 200px;
+  /* gap: 50px; */
+}
+
+.about_p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.content_1 {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.content_0 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.content_0 h1 {
+  font-family: "outfit";
+  font-weight: 400;
+}
+.content_1 img {
+  height: clamp(250px, 40vw, 345px);
+}
+
+.about-page span {
+  color: #1f2937;
+}
+.about_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.content_2 h1 {
+  margin: 30px 0;
+  font-family: "outfit";
+  font-weight: 400;
+}
+
+.content_2 span {
+  color: #1f2937;
+}
+
+.content_2_box {
+  display: flex;
+}
+.box {
+  /* height: max(fit-content, 274px) ; */
+  height: clamp(120px, 13vw, 550px);
+  border: 1px solid #ababab;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box_h {
+  /* font-size: 12px; */
+  font-weight: 600;
+}
